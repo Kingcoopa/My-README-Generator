@@ -23,7 +23,7 @@ Open your terminal with in Github:
 
 ## The App in Action
 
-[Video]
+<a href=https://drive.google.com/file/d/1Ji8Votq1QcuOBlcj7d-NqA4cis9aX4Ye/view> README Demo </a>
 
 ## Screen Shots
 ![Prompt_Screen_shot](https://user-images.githubusercontent.com/69878838/112768230-004b0300-8fe9-11eb-9fa7-473df4612e50.png)
