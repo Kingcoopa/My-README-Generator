@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const readme = "README.md";
+const newReadme = "newREADME.md";
 const generateMarkdown = require("./Assets/generateMD");
 
 // Array of questions
@@ -91,7 +91,7 @@ function writeToFile(fileName, data) {
 
 // Function to initialize
 function init() {
-    inquirer.prompt(questions).then(userdata => writeToFile(readme, userdata));
+    inquirer.prompt(questions).then(userdata => writeToFile(newReadme, userdata));
 }
 
 // Function call to initialize
