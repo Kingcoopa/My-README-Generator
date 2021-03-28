@@ -8,37 +8,37 @@ const questions = [
     {
         type: "input",
         name: "title",
-        message: "What is the title of your Project?"
+        message: "What is the title of your Project?",
         
     },
     {
         type: "input", 
         name: "description",
-        message: "Give a brief discription of your Project: "
+        message: "Give a brief discription of your Project:",
        
     },
     {
         type: "input",
         name: "installation",
-        message: "How is your project installed? "
+        message: "How is your project installed?",
         
     },
     {
         type: "input",
         name: "usage",
-        message: "How does someone use your project? "
+        message: "How does someone use your project?",
         
     },
     {
         type: "input",
         name: "contribution",
-        message: "Please list the contributors for this project? "
+        message: "Please list the contributors for this project?",
         
     },
     {
         type: "input",
         name: "testing",
-        message: "Please provide test instructions for this project? "
+        message: "Please provide test instructions for this project?",
     },
     {
         type: "checkbox",
@@ -52,19 +52,19 @@ const questions = [
             "LGPL",
             "MIT",
             "MPL",
-            "The_Unlicense"
+            "The_Unlicense",
         ],       
     },
     {
         type: "input",
         name: "gitName",
-        message: "What is your GitHub Username? "
+        message: "What is your GitHub Username?",
         
     },
     {
         type: "input",
         name: "email",
-        message: "What is your email? "
+        message: "What is your email?",
         
     }
 ];
@@ -76,7 +76,7 @@ function writeToFile(fileName, data) {
         return console.log(err);
       }
       else{
-        return console.log("Congradulations! Your README has been completed")
+        return console.log("Congradulations! Your README has been completed.")
       }
     });
 }
