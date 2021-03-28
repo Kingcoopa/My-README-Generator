@@ -2,7 +2,7 @@
 
 ## Utilization
 
-The purpose of this app, is to provide an individual a quick and easy way to get a README file started and pushed to Github or Gitlab. All the user has to do is answer the promps within the terminal, and their README will be created.
+The purpose of this app, is to provide an individual a quick and easy way to get a README file started and pushed to Github or Gitlab. All the user has to do is answer the prompts within the terminal, and their README will be created. Then all they have to do is push the README to their preferred and setup hosting app. Mine is GitHub.
 
 ## Technologies Used
 
@@ -15,6 +15,7 @@ Open your terminal with in Github:
 1. type "node index.js"
 2. Go through the prompted questions.
 3. Once the prompts are completed, the newREADME File will be created.
+4. Once the "README" is created, the user then can push the file to their hosting site.
 
 ## License
 
