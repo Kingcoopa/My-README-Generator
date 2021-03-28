@@ -26,8 +26,9 @@ Open your terminal with in Github:
 [Video]
 
 ## Screen Shots
+![Prompt_Screen_shot](https://user-images.githubusercontent.com/69878838/112768230-004b0300-8fe9-11eb-9fa7-473df4612e50.png)
 
-[Screen-shot]
+
 
 ### Contact Me
 <a href="mailto:srawilkinsonwilliams@yahoo.com"> Wilkinson Williams </a>
