@@ -51,15 +51,15 @@ const questions = [
         name: "license",
         message: "Which license did you use for this project:",
         choices: [
-            "Apache_License_2.0",
-            "GNU_AGPLv3",
-            "GNU_GPLv3",
-            "GNU_LGPLv3",
+            "AGPL",
+            "Apache",
+            "GNU",
             "ISC",
+            "LGPL",
             "MIT",
+            "MPL",
             "The_Unlicense"
-        ],
-        
+        ],       
     },
 
     {
@@ -75,8 +75,6 @@ const questions = [
         message: "What is your email? "
         
     }
-
-
 ];
 
 // Function to create README
@@ -86,15 +84,15 @@ function writeToFile(fileName, data) {
         return console.log(err);
       }
       else{
-        return console.log("Success! Your README.md file has been generated")
+        return console.log("Congradulations! Your README has been completed")
       }
     });
 }
 
-// function to initialize program
+// Function to initialize
 function init() {
     inquirer.prompt(questions).then(userdata => writeToFile(readme, userdata));
 }
 
-// function call to initialize program
+// Function call to initialize
 init();
