@@ -23,7 +23,7 @@ Open your terminal with in Github:
 
 ## The App in Action
 
-https://user-images.githubusercontent.com/69878838/112770434-b9fba100-8ff4-11eb-9fe1-566b8113f980.mp4
+<a src:https://user-images.githubusercontent.com/69878838/112770434-b9fba100-8ff4-11eb-9fe1-566b8113f980.mp4> README Demo </a>
 
 ## Screen Shots
 ![Prompt_Screen_shot](https://user-images.githubusercontent.com/69878838/112768230-004b0300-8fe9-11eb-9fa7-473df4612e50.png)
